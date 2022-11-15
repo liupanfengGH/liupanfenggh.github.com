@@ -6,7 +6,7 @@ tags: Web
 
 使用Hexo发布的博客如果想要显示图片需要配置以下几个地方：
 
-![1](./Hexo中发布带图片的文章/1.png)
+![1](Hexo中发布带图片的文章/1.png)
 
 安装 Hexo 依赖包：npm install hexo-asset-image --save
 

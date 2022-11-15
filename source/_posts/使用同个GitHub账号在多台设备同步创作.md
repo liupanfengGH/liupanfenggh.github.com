@@ -10,7 +10,7 @@ tags: Web
 
 ### 1.配置Github分支
 
-1. 进入自己的github博客仓库
+1. 登录GitHub进入自己的github博客仓库
 
 2. 在当前页面  点击Switch branches or tags 按钮
 

@@ -136,7 +136,7 @@ tags: Web
 
    下载关联插件
 
-   打开博客目录---->_config.yml使用记事本打开修改deploy部分：![image-20221113185521722](./使用Hexo-Github-搭建个人博客/image-20221113185521722.png)
+   打开博客目录---->_config.yml使用记事本打开修改deploy部分：![image-20221113185521722](使用Hexo-Github-搭建个人博客/image-20221113185521722.png)
 
    使用命令:hexo d 推送到github仓库
 
