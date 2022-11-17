@@ -36,16 +36,14 @@ tags: Git
 
 5. 在.ssh目录下，新创建一个config文件，去掉后缀的 txt文件，使用记事本打开
 
-   `Host home.github.com`
-   `Hostname github.com`
+   `Host github.com`
    `IdentityFile ~/.ssh/github_rsa`
-   `User home`
-
-   如果有多个账户 以上面的 方式 隔开 已组的方式添加即可。
+   
+   如果有多个账户 以上面的 方式 隔开 已组的方式添加即可。(注:公钥文件是区分用户权限)
 
    保存文件，测试。
 
-   命令:ssh -T git@User字段对应的内容***home.***主机名对应的内容***github.com***
+   命令:ssh -T git@github.com
 
    出现 Hi.....表示配置成功
 
@@ -54,10 +52,3 @@ tags: Git
    `命令:git config --local user.name “自己的github名”`
 
    `命令:git config --local user.email ”自己的github邮箱“`
-
-   global 与 local 取决于 使用频繁度，比如公司 与 家里，公司用global 家里用 local，在家里就相反操作即可。
-
-
-
-
-
