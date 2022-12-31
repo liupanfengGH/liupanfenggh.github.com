@@ -88,5 +88,5 @@ tags: GDI+
 	    PointF pointF(rect.right / 2, rect.bottom / 2);
 	    graphics.DrawString(L"GDI+程序", -1, &font, pointF, &brush);
 	}
-运行效果:![image-20221231214616182](GDIPlus入门\image-20221231214616182.png)
+运行效果:![image-20221231214616182](GDIPlus入门/image-20221231214616182.png)
 
